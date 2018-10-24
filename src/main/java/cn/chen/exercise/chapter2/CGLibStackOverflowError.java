@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 /**
  * 使用cglib似的方法区出现内存溢出异常
  * <p>
- * -verbose:gc -Xms20M -Xmx20M -Xmn10M -Xss2M -XX:PermSize=10M -XX:MaxPermSize=10M
+ * -verbose:gc -Xms20M -Xmx20M -Xmn10M -Xss2M -XX:PermSize=10M -XX:MaxPermSize=10M -XX:+PrintGCDetails
  *
  * @author :  chen weijie
  * @Date: 2018-10-23 8:39 PM
